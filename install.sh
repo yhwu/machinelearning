@@ -3,6 +3,15 @@ conda update --all
 pip install --ignore-installed tensorflow
 
 
+# CNTK
+# https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine
+pip install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.3.1-cp35-cp35m-win_amd64.whl
+
+git clone https://github.com/Microsoft/CNTK.git
+cd CNTK\Tutorials\NumpyInterop
+python FeedForwardNet.py
+
+
 # Keras
 pip install keras
 
