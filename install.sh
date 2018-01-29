@@ -3,6 +3,10 @@ conda update --all
 pip install --ignore-installed tensorflow
 
 
+# Keras
+pip install keras
+
+
 # xgboost
 # http://www.picnet.com.au/blogs/guido/post/2016/09/22/xgboost-windows-x64-binaries-for-download/
 wget http://ssl.picnet.com.au/xgboost/20180130/x64/xgboost.dll
